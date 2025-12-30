@@ -3,7 +3,7 @@
 proxies:
   - name: "ss-ws-tls-auto"
     type: ss
-    server: ip172-18-0-26-d59u2ugl2o9000ao1bf0-80.direct.labs.play-with-docker.com
+    server: ip172-18-0-14-d59uamol2o9000ao1bp0-80.direct.labs.play-with-docker.com
     port: 80
     cipher: chacha20-ietf-poly1305
     password: HEP-best-2020
@@ -12,7 +12,7 @@ proxies:
       mode: websocket
       skip-cert-verify: true
       tls: true
-      host: ip172-18-0-26-d59u2ugl2o9000ao1bf0-80.direct.labs.play-with-docker.com
+      host: ip172-18-0-14-d59uamol2o9000ao1bp0-80.direct.labs.play-with-docker.com
       path: /ws
 
 proxy-groups: []
